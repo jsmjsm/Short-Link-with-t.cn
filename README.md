@@ -4,7 +4,7 @@
 
 - Convert the long link to `t.cn` short link
 - Automatically copy the short link to the paste board
-- Support System notification
+- Support System notification ( with `osascript ` )
 
 ## Usage
 
