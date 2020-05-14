@@ -1,4 +1,6 @@
 # Short Link with t.cn
+![DemoPic](https://i.loli.net/2020/05/14/xuQsWwzpdM9TYBn.png)
+
 ## Download
 [Release](https://github.com/jsmjsm/Short-Link-with-t.cn/releases)
 
@@ -6,7 +8,7 @@
 
 - Convert the long link to `t.cn` short link
 - Automatically copy the short link to the paste board
-- Support System notification ( with `osascript ` )
+- Support System notification ( with `osascript` )
 
 ## Usage
 
