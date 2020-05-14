@@ -1,4 +1,6 @@
 # Short Link with t.cn
+## Download
+[Release](https://github.com/jsmjsm/Short-Link-with-t.cn/releases)
 
 ## Feature
 
