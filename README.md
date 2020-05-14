@@ -14,6 +14,13 @@
 
 Download the LaunchBar Action and install it.
 type `cmd` + `space` and Run the Action `t.cn Short Link`
+![LBActionPic](https://i.loli.net/2020/05/14/OD3yKoh1tiEV5z4.png)
+
+### macOS Workflow
+
+Select the long link - right click - service - Run `t.cn Short Link`
+
+![WorkFlowPic](https://i.loli.net/2020/05/14/4QCj52NI1wphyoV.png)
 
 ### Terminal
 
