@@ -2,7 +2,7 @@
 ![short-link-with-t.cn-banner](https://i.loli.net/2020/05/15/PIfCDquAXbGKcUn.png)
 
 ## Download
-Version 1.2: Using the `tcn2.sh`
+Version 1.1: Using the `tcn2.sh`
 [Release](https://github.com/jsmjsm/Short-Link-with-t.cn/releases)
 
 ## Feature
