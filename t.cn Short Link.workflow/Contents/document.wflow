@@ -62,14 +62,14 @@
 					<string>#!/bin/zsh
 #
 # https://github.com/jsmjsm
-# usage:
-# step1: $ chmod 777 ./tcn.sh
-# step2: $ ./t.cn longlink
+# Version 1.1
 
-result=$(curl -k -X GET -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" "https://api.uomg.com/api/long2dwz?dwzapi=tcn&amp;url=$1")
-isSuccess=$(echo $result | grep -E -o '[1-9]' | head -1)
-if [ $isSuccess ]; then
-    link=$(echo $result | sed 's/\\//g' | grep -E -o  'http.*' | sed 's/"}//g')
+result2=$(curl -s -X POST -H "User-Agent: Shortcuts/1050.19 CFNetwork/1125.2 Darwin/19.4.0" -H "Content-Type: application/x-www-form-urlencoded" -H "Host: www.lazyfarmer.top" -d "url=$1" "http://www.lazyfarmer.top/api/short/sina")
+
+isSuccess=$(echo $result2 | grep -E -o 'true' | head -1)
+
+if [ $isSuccess = "true" ]; then
+    link=$(echo $result2 | sed 's/\\//g' | grep -E -o  'http.*?}' | sed 's/"}//g' )
     echo $link | pbcopy
     osascript &lt;&lt;EOF
 	display notification "$link" with title "短链接已经复制到剪贴板"
@@ -77,9 +77,8 @@ EOF
 else
     errorInfo="Error！接口可能已经失效 或传入连接出错"
     echo $errorInfo
-    { osascript -e 'display notification "接口可能已经失效 或传入连接出错" with title "转换失败" ' } || {echo "lost terminal-notifier "}
-fi
-</string>
+    { osascript -e 'display notification "接口可能已经失效 或传入连接出错" with title "转换失败" ' } || {echo "lost terminal-notifier " }
+fi</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -189,12 +188,10 @@ fi
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>459.500000:305.000000</string>
+				<string>449.000000:305.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
