@@ -9,6 +9,7 @@
 - Convert the long link to `t.cn` short link
 - Automatically copy the short link to the paste board
 - Support System notification ( with `osascript` )
+- Work on `LaunchBar`, `Alfred`, `Workflow`, `Shell`
 
 ## Usage
 
