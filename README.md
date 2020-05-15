@@ -1,5 +1,5 @@
 # Short Link with t.cn
-![DemoPic](https://i.loli.net/2020/05/14/xuQsWwzpdM9TYBn.png)
+![short-link-with-t.cn-banner](https://i.loli.net/2020/05/15/PIfCDquAXbGKcUn.png)
 
 ## Download
 [Release](https://github.com/jsmjsm/Short-Link-with-t.cn/releases)
