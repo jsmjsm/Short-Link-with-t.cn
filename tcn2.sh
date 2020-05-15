@@ -2,8 +2,7 @@
 #
 # https://github.com/jsmjsm
 # Version 1.1
-
-result2=$(curl -s -X POST -H "User-Agent: Shortcuts/1050.19 CFNetwork/1125.2 Darwin/19.4.0" -H "Content-Type: application/x-www-form-urlencoded" -H "Host: www.lazyfarmer.top" -d "url=$1" "http://www.lazyfarmer.top/api/short/sina")
+result2=$(curl -s -X POST -H "Host: www.lazyfarmer.top" -d "url=$1" "http://www.lazyfarmer.top/api/short/sina")
 
 isSuccess=$(echo $result2 | grep -E -o 'true' | head -1)
 
