@@ -1,6 +1,16 @@
 # Short Link with t.cn
 ![short-link-with-t.cn-banner](https://i.loli.net/2020/05/15/PIfCDquAXbGKcUn.png)
 
+## IMPORTANT
+
+20200709
+
+新浪目前关闭了 t.cn 的短链接接口
+
+短链接转换已失效
+
+望周知
+
 ## Download
 Version 1.1: Using the `tcn2.sh`
 [Release](https://github.com/jsmjsm/Short-Link-with-t.cn/releases)
